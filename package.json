@@ -1,0 +1,10 @@
+{
+  "name": "lazy-retrospective-credit-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Causal saved-residue retrospective cue mining, with null controls and disjoint validation",
+  "type": "commonjs",
+  "scripts": {"test": "node tests/delayed_cue.cjs", "demo": "node experiment.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {}
+}
