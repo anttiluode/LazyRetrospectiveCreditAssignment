@@ -11,3 +11,5 @@ jobs:
         with:
           node-version: 22
       - run: npm test
+      - run: node tests/webcam_core.cjs
+      - run: node tests/webcam_ui_smoke.cjs
