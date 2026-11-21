@@ -1,0 +1,34 @@
+{
+  "revision": "live lens 0.1 / initial implementation",
+  "type": "deterministic synthetic controls; NOT webcam measurements",
+  "engine": "Predictive Sihti V2.2.1 spatial associative predictor, actual engine source",
+  "checks": {
+    "losslessSpatialReconstruction": "pass",
+    "signedResidueTapeCapacityAndOrder": "pass",
+    "causalTemporalSnapshots": "pass",
+    "jitteredCueTest": "pass",
+    "chronologicalHeldoutCandidateTest": "pass",
+    "realPredictorAdapter": "pass",
+    "simulatedDOMControlFlow": "pass"
+  },
+  "jitteredSyntheticCue": {
+    "episodes": 120,
+    "lagRangeTicks": [60,95],
+    "trueCueInOneChannel": true,
+    "slowOctaveTraceAbsCorrelation": 0.9967069840305746,
+    "exactLag80AbsCorrelation": 0.16012815380508716,
+    "warning": "Deliberately simple noiseless cue timing control. Not a claim for webcam or physiological signals."
+  },
+  "syntheticMotionPrediction": {
+    "frames": 140,
+    "frozen": false,
+    "scored": 70,
+    "modelMSE": 0.00011815344359102736,
+    "holdLastMSE": 0.000395893687589091,
+    "errorReduction": 0.7015525953178064,
+    "prototypes": 1220,
+    "maxReconstructionError": 1.4901161193847656e-8,
+    "warning": "Deterministic synthetic video. Requires a locally captured webcam receipt before any real-world conclusion."
+  },
+  "browser": "JavaScript syntax, local HTTP and mock-DOM control flow verified; interactive Chromium/camera unverified in sandbox"
+}

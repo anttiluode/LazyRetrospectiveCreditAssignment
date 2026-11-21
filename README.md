@@ -80,3 +80,8 @@ The *idea* of testing history suffixes before committing a split predates this r
 - [Sihti](https://github.com/anttiluode/Sihti) · [PredictiveSihtiV2](https://github.com/anttiluode/PredictiveSihtiV2) · [HEAD](https://github.com/anttiluode/HEAD) · [SaturdayAfterRHproof](https://github.com/anttiluode/SaturdayAfterRHproof)
 
 **Next kill:** replace the mock residue channels with genuinely archived Sihti bands on changing real video; compare against simple delayed-feature baselines and test regime shifts before claiming a useful physical precursor finder.
+
+
+## Real webcam / video evidence — Saved Residue Live Lens
+
+Open [`webcam.html`](webcam.html) through the included `run_webcam.bat` / `webcam_server.cjs` local launcher. It runs the actual Predictive Sihti V2.2.1 spatial engine against real webcam or local video, saves signed Sihti residual bands to a 512-frame in-memory tape, computes causal temporal octave summaries, and displays B, forecast error, and retrospective candidates. The browser's **Export audit JSON** produces numerical evidence for analysis; it contains no reconstructable images unless explicitly opted in. See [README_WEBCAM.md](README_WEBCAM.md) for instructions, tests, limitations, and the difference between observational associations and validated latches.
